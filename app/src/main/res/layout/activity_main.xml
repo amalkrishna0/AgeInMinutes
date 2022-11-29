@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#ff1d58">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_marginTop="70sp"
+        android:layout_marginRight="80sp"
+        android:letterSpacing="0.05"
+        android:text="Calculate Your"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20sp"
+        android:layout_marginRight="145sp"
+        android:letterSpacing="0.05"
+        android:text="Age"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textSize="25sp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_marginTop="0sp"
+        android:layout_marginRight="105sp"
+        android:letterSpacing="0.05"
+        android:text="In Minutes"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="25sp"
+         />
+
+    <Button
+
+        android:id="@+id/buttonpick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:width="380sp"
+        android:height="100sp"
+        android:background=""
+        android:layout_marginTop="50sp"/>
+    <TextView
+        android:id="@+id/selecteddate"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_marginTop="20sp"
+        android:letterSpacing="0.05"
+        android:text="31/09/2003"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_marginTop="1sp"
+        android:letterSpacing="0.05"
+        android:text="In Minutes"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/displayminutes"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_marginTop="70sp"
+        android:letterSpacing="0.05"
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_marginTop="2sp"
+        android:letterSpacing="0.05"
+        android:text="In Minutes"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+</LinearLayout>
