@@ -54,11 +54,14 @@
         android:id="@+id/buttonpick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select Date"
+        android:layout_marginTop="50sp"
         android:width="380sp"
         android:height="100sp"
-        android:background=""
-        android:layout_marginTop="50sp"/>
+        android:backgroundTint="#F9F6EE"
+        android:background="@drawable/roundedge"
+        android:text="Select Date"
+        android:textColor="@color/black"/>
+
     <TextView
         android:id="@+id/selecteddate"
         android:layout_width="wrap_content"
